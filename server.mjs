@@ -15,7 +15,7 @@ import {
   EVP_BytesToKey, connect, inet_ntoa, inet_ntop
 } from './util.mjs'
 
-
+const zlib = require('node:zlib');
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
