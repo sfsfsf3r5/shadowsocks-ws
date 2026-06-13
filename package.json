@@ -10,9 +10,7 @@
   "workspaces": [
     "local"
   ],
-  "browser": {
-  "zlib": false
-},
+ 
   "scripts": {
     "dev": "rollup -c && node --enable-source-maps server.min.mjs",
     "build": "rollup -c",
@@ -34,6 +32,7 @@
     "ws": "^8.12.1"
   },
   "devDependencies": {
+    "zlib-sync": "^0.1.10"
     "@eslint/js": "^9.38.0",
     "eslint": "^9.38.0"
   },
